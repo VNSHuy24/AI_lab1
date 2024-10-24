@@ -1,1 +1,0 @@
-print('Heloo print 2')
