@@ -5,8 +5,8 @@ from game_page import GamePage
 class GameApp(tk.Tk):
     def __init__(self):
         super().__init__()
-        self.title("Multi-Page Game")
-        self.geometry("400x300")
+        self.title("Ares’s adventure")
+        self.geometry("800x600")
 
         container = tk.Frame(self)
         container.pack(fill="both", expand=True)

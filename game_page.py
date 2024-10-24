@@ -5,9 +5,9 @@ class GamePage(tk.Frame):
         super().__init__(parent)
         self.controller = controller
 
-        label = tk.Label(self, text="Game in Progress...", font=("Helvetica", 20))
+        label = tk.Label(self, text="Game in Progress...", font=("Helvetica", 25))
         label.pack(pady=50)
 
-        end_button = tk.Button(self, text="End Game", font=("Helvetica", 14),
+        end_button = tk.Button(self, text="End Game", font=("Helvetica", 25),
                                command=lambda: controller.show_frame("StartPage"))
         end_button.pack(pady=10)
